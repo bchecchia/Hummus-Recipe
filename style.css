@@ -3,7 +3,24 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
+  background-repeat: no-repeat;
+  background-image: url("https://images.unsplash.com/photo-1591299177061-2151e53fcaea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60");
 }
+
+@media only screen and (min-device-width: 400px) {
+  body { 
+     background-image: url("https://images.unsplash.com/photo-1591299177061-2151e53fcaea?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60"); 
+  }
+}
+
+/*
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+*/
 
 h1 {
   font-style: italic;
